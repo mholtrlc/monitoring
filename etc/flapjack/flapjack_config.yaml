@@ -169,7 +169,7 @@ production:
       # Seconds between auto_refresh of entities/checks pages.  Set to 0 to disable
       auto_refresh: 120
       access_log: "/var/log/flapjack/web_access.log"
-      api_url: "http://192.168.12.10:3081/"
+      api_url: "http://10.10.11.14:3081/"
       # Full path to location of logo file, e.g. /etc/flapjack/custom_logo.png
       #logo_image_path: "/etc/flapjack/web/custom_logo/flapjack-2013-notext-transparent-300-300.png"
       logger:
@@ -181,7 +181,7 @@ production:
       port: 3081
       timeout: 300
       access_log: "/var/log/flapjack/jsonapi_access.log"
-      base_url: "http://192.168.12.10:3081/"
+      base_url: "http://10.10.11.14:3081/"
       logger:
         level: INFO
         syslog_errors: yes
@@ -373,7 +373,7 @@ development:
       # Seconds between auto_refresh of entities/checks pages.  Set to 0 to disable
       auto_refresh: 120
       access_log: "log/web_access.log"
-      api_url: "http://192.168.12.10:3081/"
+      api_url: "http://10.10.11.14:3081/"
       # Full path to location of logo file, e.g. /etc/flapjack/custom_logo.png
       #logo_image_path: "/etc/flapjack/web/custom_logo/flapjack-2013-notext-transparent-300-300.png"
       logger:
@@ -385,7 +385,7 @@ development:
       port: 3081
       timeout: 300
       access_log: "log/jsonapi_access.log"
-      base_url: "http://192.168.12.10:3081/"
+      base_url: "http://10.10.11.14:3081/"
       logger:
         level: DEBUG
         syslog_errors: yes

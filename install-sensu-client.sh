@@ -3,7 +3,7 @@
 # Installs the Sensu client component
 #
 # Dependencies:
-# - AMQP (TCP/5672 on 192.168.12.10)
+# - AMQP (TCP/5672 on 10.10.11.14)
 # - Omnibus package for Sensu
 ##
 set -eux

@@ -11,7 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.define "monitoring" do |box|
     box.vm.hostname = "monitoring"
-    box.vm.network "private_network", ip: "192.168.12.10"
+    box.vm.network "private_network", ip: "10.10.11.14"
 
     box.vm.provider "virtualbox" do |vb|
       vb.memory = 2048
@@ -22,7 +22,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.define "app1" do |box|
     box.vm.hostname = "app1"
-    box.vm.network "private_network", ip: "192.168.12.11"
+    box.vm.network "private_network", ip: "10.10.11.2"
 
     box.vm.provision "shell", inline: "cd /vagrant && ./install-all-client.sh"
   end

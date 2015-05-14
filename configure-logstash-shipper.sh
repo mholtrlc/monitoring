@@ -4,7 +4,7 @@
 #
 # Dependencies:
 # - Logstash
-# - Redis server (TCP/6379 on 192.168.12.10)
+# - Redis server (TCP/6379 on 10.10.11.14)
 ##
 set -eux
 

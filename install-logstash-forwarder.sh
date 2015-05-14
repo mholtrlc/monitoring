@@ -3,7 +3,7 @@
 # Installs Logstash forwarder, a lightweight log shipper
 #
 # Dependencies:
-# - Lumberjack receiver (TCP/5043 on 192.168.12.10)
+# - Lumberjack receiver (TCP/5043 on 10.10.11.14)
 # - SSL certificate generated with `generate-lumberjack-ssl.sh`
 ##
 set -eux
