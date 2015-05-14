@@ -22,7 +22,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.define "app1" do |box|
     box.vm.hostname = "app1"
-    box.vm.network "private_network", ip: "10.10.11.2"
+    box.vm.network "private_network", ip: "10.10.11.8"
 
     box.vm.provision "shell", inline: "cd /vagrant && ./install-all-client.sh"
   end

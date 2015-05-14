@@ -45,7 +45,7 @@ Want to add additional scripts? Improve existing scenarios? Just fork it, and su
 Two Vagrant boxes are provided with this script.
 
 - `monitoring` on 10.10.11.14
-- `app1` on 10.10.11.2
+- `app1` on 10.10.11.8
 
 The `monitoring` box is intended for the different monitoring stacks, while `app1` is intended to try out clients.
 
